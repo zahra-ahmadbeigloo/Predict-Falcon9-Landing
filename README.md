@@ -17,6 +17,9 @@ Using historical launch data, we explore and preprocess the dataset to train mod
 - Applied encoding techniques to prepare the dataset for machine learning.
 - Started building classification models to predict landing success.
 
+## Plots
+![Demo GIF](Plot-Images/Map3.gif)
+
 ## 🔧 Tools & Libraries
 - Python
 - Pandas, NumPy
