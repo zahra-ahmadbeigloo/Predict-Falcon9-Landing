@@ -1,34 +1,59 @@
-# Predict-Falcon9-Landing
-This project aims to predict the success of Falcon 9 first stage landings using machine learning models.
+You're absolutely right! **Web scraping** and **REST API calls** were key components in extracting SpaceX launch data. Let’s refine the README to reflect this properly.  
 
-## 🔍 Objective
-Using historical launch data, we explore and preprocess the dataset to train models capable of predicting whether a SpaceX Falcon 9 booster will successfully land.
+---
 
-## 📁 Project Structure
-- `SpaceX.ipynb` — Main notebook containing EDA, feature engineering, and model development.
-- `data/` — Folder to store raw and processed datasets (to be added).
-- `README.md` — Project documentation.
+### **🚀 README.md for SpaceX Launch Data Analysis Using Machine Learning, Web Scraping & REST API**  
 
-## 📊 Workflow So Far
-- Retrieved SpaceX Falcon 9 launch data.
-- Performed Exploratory Data Analysis (EDA) to understand launch trends and success factors.
-- Extracted and engineered relevant features like payload, orbit, launch site, booster version, etc.
-- Visualized key relationships using seaborn and plotly.
-- Applied encoding techniques to prepare the dataset for machine learning.
-- Started building classification models to predict landing success.
+### **🔭 SpaceX Launch and Booster Landing Predictions built with:**  
+- **Python** for backend logic and data processing  
+- **Pandas & NumPy** for efficient data handling  
+- **Matplotlib & Seaborn** for visualization  
+- **Scikit-Learn** for machine learning (Logistic Regression, SVM, Decision Trees, KNN)  
+- **Folium** for interactive map plotting  
+- **Dash & Plotly** for dynamic dashboard visualization  
+- **BeautifulSoup** for Web Scraping SpaceX launch details  
+- **Requests & REST API** for retrieving SpaceX rocket and launchpad data  
 
-## Plots
-![Demo GIF](Plot-Images/Map3.gif)
+---
 
-## 🔧 Tools & Libraries
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn, Plotly
-- Scikit-learn
+## **SpaceX Launch Data Analysis Using Machine Learning & API/Web Scraping**  
 
-## 🚧 Next Steps
-- Feature scaling and normalization
-- Model training using Logistic Regression, SVM, Decision Trees, etc.
-- Hyperparameter tuning and cross-validation
-- Model evaluation using accuracy, precision, recall, and confusion matrix
+This project integrates **REST API** calls and **Web Scraping** techniques to collect SpaceX launch data. After data collection, machine learning models predict **booster landing success rates**, while visualizations offer insights into **launch sites, flight outcomes, and payload influences**.  
 
+### **Key Features:**  
+- 🌍 **Web Scraping SpaceX Launch Data** → Extracting historical launch details from Wikipedia  
+- 🔄 **REST API Calls for SpaceX Rockets & Launchpads** → Fetching metadata and location details dynamically  
+- 🚀 **Machine Learning for Booster Landing Predictions** → Evaluating logistic regression, SVM, decision trees, and KNN classifiers  
+- 📈 **Geospatial Mapping of Launch Sites** → Using **Folium** to analyze location-based influences on success  
+- 🔥 **Interactive Dashboards** → Displaying **launch success rates**, **payload distributions**, and **landing site comparisons**  
+
+---
+
+## **Visualization Gallery**  
+
+- SpaceX Launch Sites Mapped with Folium  
+<img src="Plot-Images/Map1.jpeg" width="500"/>
+<img src="Plot-Images/Map2.jpeg" width="500"/>
+![Launch Site Map](Plot-Images/Map3.gif)  
+![Launch Site Map](Plot-Images/Map4.gif)  
+![Launch Site Map](Plot-Images/Map5.gif)  
+
+
+
+Booster Landing Success Rates Per Orbit Type
+- Confusion Matrix for the Best Classifier (Decision Tree)
+- Interactive Dashboard for Launch Success Analysis
+
+---
+
+## Dependencies 
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn folium dash plotly requests beautifulsoup4
+```
+
+---
+
+## License 
+
+This project is licensed under the MIT License.
